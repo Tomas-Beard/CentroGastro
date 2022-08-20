@@ -91,6 +91,7 @@ body{
 
 .footer{
     margin-top: 1%;
+    
     padding: 1.5%;
     border: 2px solid var(--main-details-color);
     border-radius: 10px;
