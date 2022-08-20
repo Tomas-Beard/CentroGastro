@@ -1,0 +1,115 @@
+:root{
+    --main-bg-color: #F7F1E6;
+    --main-details-color:#312B80;
+    --main-font-color:#312B80;
+}
+
+body{
+    background-color:var(--main-bg-color);
+    padding: 0.5% 5.5%;
+}
+/* nav */
+
+.navbar__img-container{
+    background-color: var(--main-bg-color) ;
+    height: 70px;
+    width: 100%;
+    padding-top: 0.5%;
+    display: flex;
+    align-items: center;
+}
+.navbar__img{
+   height: 70px;
+   width: 25%;
+    background-image: url(/resources/001.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.navbar__list-button{
+    padding: 0.5% 0%;
+    height: 20%;
+    width: 20%;
+    text-align: center;
+    color:var(--main-font-color);
+}
+
+/* index */
+.index__main-picture-container{
+    background-color: bisque;
+}
+.index__main-picture{
+    margin-top: 1%;
+    width: 100%;
+    height: 375px;
+    background-image: url(/resources/004.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:contain;
+}
+
+.index__boxes-list{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.boxes__list-item{
+    height: 120px;
+    width: 20%;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 120px;
+}
+.boxes__list-item:nth-child(2n-1){
+    background-color: coral;
+}
+.boxes__list-item:nth-child(2n){
+    background-color:aqua;
+}
+
+.index__news-container{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index__news-item-box{
+    width: 19.5%;
+}
+.news__item-img{
+    background-color: rgb(226, 217, 43);
+    height: 200px;
+    width: 100%;
+    
+}
+
+.footer{
+    margin-top: 1%;
+    padding: 1.5%;
+    border: 2px solid var(--main-details-color);
+    border-radius: 10px;
+}
+.footer__box-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__info{
+    width: 50%;
+}
+
+.list__info>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   height: 100%;
+   align-items:center;
+
+}
+
