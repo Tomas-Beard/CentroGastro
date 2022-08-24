@@ -1,8 +1,8 @@
 :root{
-    --main-bg-color: #F7F1E6;
+    --main-bg-color: #eee;
     --main-details-color:#312B80;
     --main-font-color:#312B80;
-    --main-section-color: #efefef;
+    --main-section-color: #fff;
 }
 
 body{
@@ -83,10 +83,10 @@ padding: 0.5% 5.5%;
     line-height: 120px;
 }
 .boxes__list-item:nth-child(2n-1){
-    background-color: coral;
+    background-color:#8783CC;
 }
 .boxes__list-item:nth-child(2n){
-    background-color:aqua;
+    background-color:#635F95;
 }
 
 .index__news-container{
@@ -99,12 +99,29 @@ padding: 0.5% 5.5%;
     width: 19.5%;
 }
 .news__item-img{
-    background-color: rgb(226, 217, 43);
+    border-radius: 3px 3px 0px 0px ;
+    background: url(/resources/piron-guillaume-U4FyCp3-KzY-unsplash.jpg);
+    background-size:350px;
+    background-repeat: no-repeat;
+    background-clip: border-box;
     height: 200px;
     width: 100%;
     
 }
+.news__item-caption{
+    background-color: #fefe;
+    box-shadow: 5px 2px 8px #ccc;
+    border-radius: 0px 0px 3px 3px;
+    height: 125px;
+    display: flex;
+    
+}
 
+.caption{
+    padding: 5%;
+    width: 90%;
+    font-weight:bold;
+}
 /* Contacto */
 
 .contact-container{
@@ -133,7 +150,7 @@ text-align: center;
 
 .footer-container{
     margin-top: 30px;
-    padding: 0.5% 5.5%;
+    padding: 2.5% 5.5%;
     background-color: var(--main-details-color);
     color:var(--main-section-color)
 }
@@ -153,33 +170,52 @@ text-align: center;
 .arqtree__list-items > li {
     padding: 10px;
 }
-
+.arqtree__list-items{
+   
+}
+/*  */
+.footer__social-media{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .footer__social-media-logos{
     display: flex;
-    justify-content:center ;
+    justify-content:center ; 
+    width: 33.3%;
 }
 .logos__list{
     height: 100%;
-    width: 100%;
+    width: 33.3%;
     margin-top: 2%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 .logos__list>li{
-    padding-left:25px ;
+    padding-right: 15px;
 }
 .footer-social-media__main-logo{
-    width: 100%;
-    display: flex;
+    width: 33.3%;
+    display: flex; 
     justify-content: center;
 }
 .main-logo__img{
     padding-top: 4%;
     height: 70px;
-    width: 25%;
+    width: 70%;
     background-image: url(/resources/footer-logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+.footer__contact-info{
+    width: 33.3%;
+}
+.contact-info__list{
+    text-align: center;
+    padding-left: 60px;
 }
