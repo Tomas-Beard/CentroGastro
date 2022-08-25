@@ -15,8 +15,9 @@ body > .navbar-container + .index-container {
 
 body > .contact-container{ 
     margin-top: 30px;
-padding: 0.5% 5.5%;
- background-color:#efefef ;
+padding: 2.5% 5.5%;
+ background-color:#fbfbfb ;
+
 }
 /* nav */
 
@@ -54,21 +55,6 @@ padding: 0.5% 5.5%;
 }
 
 /* index */
-.index__main-picture-container{
-    background-color:var(--main-section-color);
-    
-}
-.index__main-picture{
-    align-self: center;
-    margin-top: 15px;
-    margin-left: 15%;
-    width: 70%;
-    height: 350px;
-    background-image: url(/resources/005.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size:cover;
-}
 
 .index__boxes-list{
     margin-top: 15px;
@@ -125,6 +111,7 @@ padding: 0.5% 5.5%;
 /* Contacto */
 
 .contact-container{
+   
     margin-top: 0px;
     padding: 1.5%;
 }
@@ -147,9 +134,9 @@ text-align: center;
 }
 
 /* Footer */
+footer
 
 .footer-container{
-    margin-top: 30px;
     padding: 2.5% 5.5%;
     background-color: var(--main-details-color);
     color:var(--main-section-color)

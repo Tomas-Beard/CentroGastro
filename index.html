@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrousel.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
 </head>
@@ -26,7 +27,55 @@
         </nav>
     </main>
     <section class="index-container">
-        <div class="index__main-picture-container"><div class="index__main-picture"></div>
+        <div class="index__carrousel">
+            <section class="carousel" aria-label="Gallery">
+              <ol class="carousel__viewport">
+                <li id="carousel__slide1"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper">
+                   
+                  </div>
+                </li>
+                <li id="carousel__slide2"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                 
+                </li>
+                <li id="carousel__slide3"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                  
+                <li id="carousel__slide4"
+                    tabindex="0"
+                    class="carousel__slide">
+                  <div class="carousel__snapper"></div>
+                 
+                </li>
+              </ol>
+              <aside class="carousel__navigation">
+                <ol class="carousel__navigation-list">
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1"
+                       class="carousel__navigation-button">Go to slide 1</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2"
+                       class="carousel__navigation-button">Go to slide 2</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3"
+                       class="carousel__navigation-button">Go to slide 3</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4"
+                       class="carousel__navigation-button">Go to slide 4</a>
+                  </li>
+                </ol>
+              </aside>
+            </section>
         </div>
         <ul class="index__boxes-list">
             <li class="boxes__list-item">Obras sociales y prepagas</li>
