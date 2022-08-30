@@ -127,6 +127,7 @@
     height: 100%;
     scroll-snap-align: center;
   }
+
   
   @media (hover: hover) {
     .carousel__snapper {
