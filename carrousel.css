@@ -106,7 +106,7 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url('/resources/examples/online-marketing-hIgeoQjS_iE-unsplash.jpg');
+    background-image: url('./resources/examples/online-marketing-hIgeoQjS_iE-unsplash.jpg');
     counter-increment: item;
     background-repeat: no-repeat;
     background-size: cover;
