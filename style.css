@@ -32,6 +32,7 @@ padding: 2.5% 5.5%;
     display: flex;
     align-items: center;
 }
+
 .navbar__img{
    height: 70px;
    width: 25%;
@@ -110,7 +111,7 @@ text-transform: uppercase;
 }
 .news__item-img{
     border-radius: 3px 3px 0px 0px ;
-    background: url("./resources/piron-guillaume-U4FyCp3-KzY-unsplash.jpg");
+    background: url('./resources/piron-guillaume-U4FyCp3-KzY-unsplash.jpg');
     background-size:350px;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -262,7 +263,7 @@ footer
     padding-top: 4%;
     height: 70px;
     width: 70%;
-    background-image: url("./resources/footer-logo.png");
+    background-image: url('./resources/footer-logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
