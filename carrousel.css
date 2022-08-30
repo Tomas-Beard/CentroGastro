@@ -84,7 +84,7 @@
   }
   .carousel {
     position: relative;
-    padding-top: 75%;
+    height: 500px;
     filter: drop-shadow(0 0 10px #0003);
   }
   
@@ -106,25 +106,18 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url(/resources/004.jpg);
+    background-image: url(/resources/examples/online-marketing-hIgeoQjS_iE-unsplash.jpg);
     counter-increment: item;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .carousel__slide:nth-child(even) {
-    background-image: url(/resources/005.jpg);
+    background-image: url(/resources/examples/jafar-ahmed-E285pJbC4uE-unsplash.jpg);
+    background-position-y: center;
   }
   
-  .carousel__slide:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-40%,70px);
-    color: #fff;
-    font-size: 2em;
-  }
+
   
   .carousel__snapper {
     position: absolute;
@@ -161,7 +154,7 @@
   
   .carousel__navigation {
     position: absolute;
-    max-height: 400px;
+    height: 40px;
     top:450px;
     right: 0;
     bottom: 0;
