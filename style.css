@@ -35,7 +35,7 @@ padding: 2.5% 5.5%;
 .navbar__img{
    height: 70px;
    width: 25%;
-    background-image: url("resources/001.png");
+    background-image: url('./resources/001.png');
     background-size: contain;
     background-repeat: no-repeat;
 
