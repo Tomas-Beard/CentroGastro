@@ -47,6 +47,16 @@ padding: 2.5% 5.5%;
  margin-top: 20px;   
 
 }
+.navbar__list-buttonbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.navbar__list-button-a{
+    display: none;
+}
 .navbar__list-button{
     padding: 0.5% 0%;
     height: 20%;
