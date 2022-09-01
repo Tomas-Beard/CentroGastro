@@ -49,7 +49,7 @@ height: 40vh;
     font-weight: 800;
     color: #dddddd;}
 
-    .index_inst-info{
+    /* .index_inst-info{
         height: 600px;
         display:flex ;
         justify-content: center;
@@ -68,7 +68,7 @@ height: 40vh;
 
     .index__news-item-box{
         display: none;
-    }
+    } */
 
 
     .contact-box-list{
@@ -158,4 +158,29 @@ height: 40vh;
     .navbar__list-button {
         width: 50%;
     }
- }
+ 
+
+    .index_inst-info{
+        height: 600px;
+        display:flex ;
+        justify-content: center;
+    }
+    .index_inst-info > .list-info__details{
+        width: 60%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .index_inst-info> .list-info__details > .info__item{
+        height: 180px;
+        width: 100%;
+        background-color: #cccccc;
+    }
+
+    .index__news-item-box{
+        display: none;
+    }
+
+}
+
+ 
