@@ -110,6 +110,21 @@ text-transform: uppercase;
     background-color:#635F95;
 }
 
+.index_inst-info{
+    height: 25vh;
+}
+.index_inst-info > .list-info__details{
+    flex-direction: row;
+}
+.index_inst-info> .list-info__details > .info__item{
+    height: 100%;
+    width: 33%;
+    background-color: #cccccc;
+    color: #4a4a4a;
+    font-weight: 800;
+}
+
+
 .index__news-container{
     margin-top: 25px;
     display: flex;
@@ -197,7 +212,7 @@ text-align: center;
 }
 
 
-.list-info__details>.info__item>.item-list{
+.info__item>.item-list{
     height: 100%;
     width: 100%;
     display: flex;
